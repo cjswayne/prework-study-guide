@@ -3,15 +3,13 @@
     margin: 40px auto;
     border: 5px solid gray;
     box-shadow: 5px 10px #888888;
+    border-radius: 0px 10px 10px 10px ;
 }
 * {
     margin: 0;
     padding: 0;
 }
-#html-content-section.card{
-    border: 0px solid gray;
-    box-shadow: 0px 0px #888888;
-}
+
 header,
 footer {
     width: 100%;
@@ -39,6 +37,9 @@ ul {
     font-size: 20px;
 }
 
+li{
+    margin-bottom:10px;
+}
 p {
     text-align: center;
     font-size: 30px;
