@@ -23,8 +23,8 @@ To get started with this project, follow these technical steps:
 
 This webpage serves as a practical example of how basic web development concepts come together to form a functioning website. It is an effective tool for note-taking, designed to be particularly useful for students. Key features include:
 
-- A random topic generator, which displays output in the developer tools console.
-- An automatic feature that selects a topic for note-taking, eliminating the need for manual input.
+- A random topic generator, which displays an output in the developer tools console to see what you should study.
+- An automatic feature that collects all headers from the notes for the random topic generator, eliminating the need for manual input.
 
 ## Credits
 
