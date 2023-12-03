@@ -9,42 +9,293 @@
   </head>
   <body>
     <header id="top-header">
-      <h1>Prework Study Guide</h1>
-      <img width="200px;"src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
+      <div class="outer-div">
+      <div class="inner-div">
+        <img width="200px;"src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+        <h1>Prework Study Guide</h1>
+
+      </div>
+      <h2 class="subheading">✨ Open the Console to See What's Happening ✨</h2>
+    </div>
     </header>
     <main>
-      <section class="card-header" id="html-content-section">
-
+      <section class="cards-container" id="html-content-section">
+        <div class="cards-container">
 <section class="card" id="html-section"><h2>HTML</h2>
-<ul>
-  <li>The head elements contain info about the webpage.</li>
-<li>The body element represents the visible content to show the user.</li>
-</ul>
+  <ul>
+    <li>DOCTYPE Declaration
+      <ul>
+        <li>Specifies HTML version (e.g., <span class="code-style">HTML5</span>).</li>
+        <li>Ensures browser renders the page in standards mode.</li>
+      </ul>
+    </li>
+    <li>HTML Tag
+      <ul>
+        <li>Root element of an HTML document.</li>
+        <li>Contains the entire content of the web page.</li>
+      </ul>
+    </li>
+    <li>Head Tag
+      <ul>
+        <li>Contains meta-information, scripts, and links to external resources.</li>
+        <li>Not visible to users.</li>
+      </ul>
+    </li>
+    <li>Meta Tags
+      <ul>
+        <li>Define metadata like character encoding and viewport settings.</li>
+        <li>Essential for responsive web design.</li>
+      </ul>
+    </li>
+    <li>Title Tag
+      <ul>
+        <li>Sets the title of the webpage.</li>
+        <li>Shown in browser tab and SEO relevant.</li>
+      </ul>
+    </li>
+    <li>Link Tag for CSS
+      <ul>
+        <li>Connects external CSS files to the HTML.</li>
+        <li>Styles the elements in the HTML document.</li>
+      </ul>
+    </li>
+    <li>Body Tag
+      <ul>
+        <li>Main content area visible to users.</li>
+        <li>Contains text, images, links, etc.</li>
+      </ul>
+    </li>
+    <li>Header Tag
+      <ul>
+        <li>Typically holds introductory content or navigation links.</li>
+        <li>Can contain logos, search bars, etc.</li>
+      </ul>
+    </li>
+    <li>Main Tag
+      <ul>
+        <li>Encapsulates the primary content of the web page.</li>
+        <li>Improves accessibility and SEO.</li>
+      </ul>
+    </li>
+    <li>Section Tag
+      <ul>
+        <li>Groups related content.</li>
+        <li>Often used with heading elements.</li>
+      </ul>
+    </li>
+    <li>Div Tag
+      <ul>
+        <li>Generic container for flow content.</li>
+        <li>Used for layout and styling purposes.</li>
+      </ul>
+    </li>
+    <li>H1, H2 Tags
+      <ul>
+        <li>Define headings of different levels.</li>
+        <li>Important for SEO and accessibility.</li>
+      </ul>
+    </li>
+    <li>Image Tag
+      <ul>
+        <li>Embeds an image in the document.</li>
+        <li>Can include attributes like <span class="code-style">src</span> and <span class="code-style">alt</span>.</li>
+      </ul>
+    </li>
+    <li>Unordered List (UL) and List Items (LI)
+      <ul>
+        <li>Creates a bullet-point list.</li>
+        <li>Used for grouping related items.</li>
+      </ul>
+    </li>
+    <li>Footer Tag
+      <ul>
+        <li>Contains footer content.</li>
+        <li>Often includes copyrights, links, etc.</li>
+      </ul>
+    </li>
+    <li>Script Tag
+      <ul>
+        <li>Links external JavaScript files or contains inline JavaScript.</li>
+        <li>Used for client-side scripting.</li>
+      </ul>
+    </li>
+  </ul>
+  
 </section>
 
 <section  class="card" id="css-section"><h2>CSS</h2>
-<ul>
-  <li>Enter ur css here</li>
-</ul>
+  <ul>
+    <li>Universal Selector (<span class="code-style">*</span>)
+      <ul>
+        <li>Applies styles globally to all elements.</li>
+        <li>Commonly used for resetting margins and paddings.</li>
+      </ul>
+    </li>
+    <li>Element Selectors
+      <ul>
+        <li>Targets HTML elements directly.</li>
+        <li>Styles specific tags like header, footer, etc.</li>
+      </ul>
+    </li>
+    <li>Class Selectors
+      <ul>
+        <li>Selects elements with a specific class attribute.</li>
+        <li>Enables targeted styling of groups of elements.</li>
+      </ul>
+    </li>
+    <li>ID Selectors
+      <ul>
+        <li>Targets elements with a specific ID attribute.</li>
+        <li>Used for unique, one-time styles.</li>
+      </ul>
+    </li>
+    <li>Grouping Selectors
+      <ul>
+        <li>Groups multiple selectors to apply the same styles.</li>
+        <li>Reduces redundancy in CSS.</li>
+      </ul>
+    </li>
+    <li>Flexbox
+      <ul>
+        <li>A layout model for arranging elements in one dimension.</li>
+        <li>Properties like <span class="code-style">display: flex</span> control layout.</li>
+      </ul>
+    </li>
+    <li>Margin and Padding
+      <ul>
+        <li>Margin controls outer spacing, padding inner spacing.</li>
+        <li>Essential for layout design.</li>
+      </ul>
+    </li>
+    <li>Background Color
+      <ul>
+        <li>Sets the background color of elements.</li>
+        <li>Accepts color names, hex, RGB, etc.</li>
+      </ul>
+    </li>
+    <li>Color Property
+      <ul>
+        <li>Defines the text color of elements.</li>
+        <li>Similar color values as background color.</li>
+      </ul>
+    </li>
+    <li>Height and Width
+      <ul>
+        <li>Sets the size of elements.</li>
+        <li>Can be in pixels, percentages, etc.</li>
+      </ul>
+    </li>
+    <li>Text Alignment
+      <ul>
+        <li>Aligns text within elements.</li>
+        <li>Values include left, right, center.</li>
+      </ul>
+    </li>
+    <li>Font Properties
+      <ul>
+        <li>Includes font size, weight, family.</li>
+        <li>Controls text appearance.</li>
+      </ul>
+    </li>
+  </ul>
+  
 </section>
 <section class="card" id="git-section"><h2>Git</h2>
 <ul>
-  <li>git status: checks what branch we are currently on</li>
-<li>git checkout -b branch-name: creates a new branch and switches to it</li>
+  <li><span class="code-style">git status</span>: checks what branch we are currently on</li>
+<li><span class="code-style">git checkout -b "branch-name"</span>: creates a new branch "branch-name" and switches to it</li>
+<li><span class="code-style">git checkout main</span>: switches to your main branch</li>
+<li><span class="code-style">git checkout "branch-name"</span>: switches to "branch-name"</li>
+<li><span class="code-style">git push origin</span>: pushes branch(or main depending on where you are) to the repo</li>
+<li><span class="code-style">git add -A</span>: stages all files that have been modified, added, or deleted since the last commit</li>
+<li><span class="code-style">git commit -m "[your message here]"</span>: Commits staged files with a custom message through the terminal(as opposed to in git making txt file to write comments)</li>
+<li><span class="code-style">git pull origin</span>: pulls the main branch from github.</li>
 </ul>
 </section>
 
 <section class="card" id="javascript-section"><h2>JS</h2>
+  
   <ul>
-    <li>A variable is a named container that allows us to store data in our code.</li>
     <li>Control flow is the order in which a computer executes code in a script.</li>
-  </ul></section>
+    <li>Function Definition
+      <ul>
+        <li>Declares a function with specific tasks.</li>
+        <li>Can take parameters and return values.</li>
+      </ul>
+    </li>
+    <li>Console Log
+      <ul>
+        <li>Outputs information to the browser console.</li>
+        <li>Useful for debugging and testing.</li>
+      </ul>
+    </li>
+    <li>Variables
+      <ul>
+        <li>Stores data values.</li>
+        <li>Defined using <span class="code-style">var</span>, <span class="code-style">let</span>, <span class="code-style">const</span>.</li>
+      </ul>
+    </li>
+    <li>Array
+      <ul>
+        <li>An ordered collection of items.</li>
+        <li>Can store various data types.</li>
+      </ul>
+    </li>
+    <li>forEach Method
+      <ul>
+        <li>Iterates over array elements.</li>
+        <li>Executes a function on each item.</li>
+      </ul>
+    </li>
+    <li>Random Number Generation
+      <ul>
+        <li>Generates random numbers.</li>
+        <li>Often combined with <span class="code-style">Math.random</span>.</li>
+      </ul>
+    </li>
+    <li>Template Literals
+      <ul>
+        <li>Allows embedded expressions in strings.</li>
+        <li>Uses backticks and <span class="code-style">${}</span> syntax.</li>
+      </ul>
+    </li>
+    <li>querySelectorAll Method
+      <ul>
+        <li>Selects multiple elements from the DOM.</li>
+        <li>Returns a NodeList.</li>
+      </ul>
+    </li>
+    <li>Array.from Method
+      <ul>
+        <li>Converts NodeList to an array.</li>
+        <li>Enables array methods on DOM collections.</li>
+      </ul>
+    </li>
+    <li>map Method
+      <ul>
+        <li>Creates a new array with the results of calling a function on every array element.</li>
+        <li>Useful for transforming arrays.</li>
+      </ul>
+    </li>
+    <li>Function Calls
+      <ul>
+        <li>Invokes a function.</li>
+        <li>Can pass arguments to the function.</li>
+      </ul>
+    </li>
+  </ul>
 </section>
+</div>
+</section>
+
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <div class="outer-div">
+        <p class="footer_text">I can code!</p>
+        <a href="https://github.com/cjswayne">Charles Swayne 12/3/2023</a>
+      </div>
+      
     </footer>
 
     <script src="./assets/script.js"></script>
