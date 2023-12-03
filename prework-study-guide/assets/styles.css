@@ -44,3 +44,17 @@ p {
     text-align: center;
     font-size: 30px;
   }
+
+  html, body {
+    height: 100%; /* Full height */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+}
+
+main {
+    flex-grow: 1; /* Expand main to fill available space */
+}
+
+/* Rest of your CSS... */
